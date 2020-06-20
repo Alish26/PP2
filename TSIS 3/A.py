@@ -1,5 +1,5 @@
 x = int(input())
-y = int(x)
+y = x
 n = 0
 
 while(y):
