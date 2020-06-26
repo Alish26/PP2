@@ -1,0 +1,6 @@
+def Sol(s):
+        import re
+        ss = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', s)
+        return re.sub('([a-z0-9])([A-Z])', r'\1_\2', ss).lower()
+
+print(Sol('PythonExercises'))
