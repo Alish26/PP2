@@ -83,9 +83,9 @@ class Game:
         return False
 
 class Wall:
-    x = []
-    y = []
     def __init__(self, level):
+        self.x = []
+        self.y = []
         if level:
             f = open("levels/level{0}.txt".format(level))
             row = -1
